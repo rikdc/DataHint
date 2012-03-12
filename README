@@ -1,0 +1,13 @@
+This is a simple jQuery plugin to pre-fill an input element
+with a specified value, which when the input fields is
+selected, the pre-filled value will be hidden.
+
+Usage:
+
+<input type="text" value="" data-hint="Search..." class="dh" />
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('input.dh').DataHint();
+});
+</script>
